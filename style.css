@@ -290,9 +290,8 @@ text-align: center;
     height: 456px;
 }
 .blogs{
-    text-align: center;
     width: 330px;
-    margin: 0;
+    margin-right:50px ;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 26px;
