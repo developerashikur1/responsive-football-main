@@ -137,13 +137,11 @@ Section Subscriber Start
 
 .section-subscriber{
     padding-top: 90px;
-    /* background-color:#2D25A0; */
     
 }
 
 .subscribe{
     display: flex;
-    /* justify-content: center; */
 }
 .login-form{
     display: flex;
@@ -196,7 +194,9 @@ Section Subscriber End
 /* =====================
         Footer Start
 ======================== */
-
+footer{
+    margin-bottom: 63px;
+}
 .main-footer{
 text-align: center;
 }
@@ -225,9 +225,7 @@ text-align: center;
     font-weight: 400;
 }
 
-footer{
-    margin-bottom: 63px;
-}
+
 /* ---------------------
         Footer End 
 ------------------------ */
