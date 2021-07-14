@@ -291,6 +291,7 @@ text-align: center;
 }
 .blogs{
     width: 330px;
+align-items: center;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
