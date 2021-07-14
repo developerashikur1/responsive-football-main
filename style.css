@@ -190,3 +190,44 @@ animation: button .7s ease-out .7s infinite alternate;
 /* ---------------------
 Section Subscriber End 
 ------------------------ */
+
+
+
+/* =====================
+        Footer Start
+======================== */
+
+.main-footer{
+text-align: center;
+}
+
+.footer-image{
+    width: 483px;
+    height: 110px;
+    margin-bottom:20px;
+}
+
+.fab{
+    color: #969BAB;
+    background-color: rgba(214, 214, 214, 0.747);
+    font-size: 16px;
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.footer-text{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+footer{
+    margin-bottom: 63px;
+}
+/* ---------------------
+        Footer End 
+------------------------ */
