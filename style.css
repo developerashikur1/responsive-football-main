@@ -291,7 +291,7 @@ text-align: center;
 }
 .blogs{
     margin: auto;
-    width: 100%;
+    width: 330px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 26px;
