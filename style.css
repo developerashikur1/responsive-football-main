@@ -283,6 +283,7 @@ text-align: center;
     Section Blog Start
 ======================== */
 .section-blogs{
+    align-items: center;
     padding: 47px 16px 60px 16px;
 }
 .blog{
@@ -295,7 +296,6 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 26px;
-    -ms-grid-column-align: center;
 }
 
 H2{
