@@ -54,6 +54,7 @@ body{
 }
 
 .home-button:hover{
+    background-color: yellow;
     padding: 20px 44px 20px 44px;
     transition: .5s;
 }
@@ -73,13 +74,20 @@ body{
 /* ---------------------
     1st Section End 
 ------------------------ */
+
+
+
+/* =====================
+    Section Blog Start
+======================== */
+
 .section-blogs{
-    padding: 50px 0;
+    padding: 70px 0;
     background-color: #FFFFFF;
 
 }
 .blogs{
-justify-content: center;
+    justify-content: center;
     margin: auto;
     width: 600px;
     display: grid;
@@ -106,13 +114,79 @@ h2{
 
 p{
     color: #6C6C6C;
-font-size: 16px;
-line-height: 26px;
-font-weight: 400;
-font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .img-2{
     width: 330px;
     height: 266px;
 }
+
+/* ---------------------
+    Section Block End 
+------------------------ */
+
+
+
+/* =====================
+Section Subscriber Start
+======================== */
+
+.section-subscriber{
+    padding-top: 90px;
+    /* background-color:#2D25A0; */
+    
+}
+
+.subscribe{
+    display: flex;
+    /* justify-content: center; */
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input, button{
+    font-size: 1.3em;
+    padding: 30px 50px;
+    margin-top: 25px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+@keyframes button {
+    from{
+        background-color: #E02C6D;
+    }
+    
+    to{
+        font-weight: 700;
+        transform: scale(1.1);
+        background-color: yellow;
+    }
+}
+
+.button{
+animation: button .7s ease-out .7s infinite alternate;
+
+}
+
+.subscribe-us{
+    margin: auto;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 235px;
+}
+
+.h2{
+    margin-top:0;
+}
+
+/* ---------------------
+Section Subscriber End 
+------------------------ */
