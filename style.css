@@ -195,6 +195,7 @@ Section Subscriber End
         Footer Start
 ======================== */
 footer{
+    margin-top: 158px;
     margin-bottom: 63px;
 }
 .main-footer{
@@ -287,47 +288,71 @@ text-align: center;
 .blogs{
     width: 100%;
     margin: 0;
-display: grid;
-grid-template-columns: repeat(1, 1fr);
-grid-row-gap: 26px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 26px;
 }
 
+H2{
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
 
+p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight:normal;
+}
 
 
 /* =====================
 Section Subscriber Start
 ======================== */
 .section-subscriber{
-    margin: 0px;
+    margin: 0 16px 0 16px;
 }
 
 .subscribe-us{
+    width: 100%;
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
 }
 
 .video{
-    width: 259px;
-height: 239px;
+    width:100%;
+height: 200px;
 }
-
-
-
 
 /* ---------------------
 Section Subscriber End 
 ------------------------ */
 
+/* =====================
+        Footer Start
+======================== */
+footer{
+    margin: 43px 16px 178px 16px;
+}
 
- .main-footer{
-        display: none;
-    }
+.footer-image{
+    width: 243px;
+    height: 55px;
+    margin-bottom:20px;
+}
 
 
 
 
+
+
+/* ---------------------
+        Footer End 
+------------------------ */
     
 }
 
