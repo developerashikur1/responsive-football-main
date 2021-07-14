@@ -290,6 +290,7 @@ text-align: center;
     height: 456px;
 }
 .blogs{
+    text-align: center;
     width: 330px;
     margin: 0;
     display: grid;
