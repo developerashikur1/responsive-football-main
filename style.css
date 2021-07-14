@@ -292,8 +292,8 @@ text-align: center;
 .blogs{
     justify-content: center;
     margin: auto;
-    /* width: 100%;
-    margin: 0; */
+    width: 100%;
+    /* margin: 0; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 26px;
